@@ -44,8 +44,8 @@ public class 영어끝말잇기 {
 
     public static void main(String[] args) {
         영어끝말잇기 main = new 영어끝말잇기();
-        int n = 3;
-        String[] words = {"tank", "kick", "know", "wheel", "land", "dream", "mother", "robot", "tank"};
+        int n = 2;
+        String[] words = {"hello", "one", "even", "never", "now", "world", "draw"};
         int[] result = main.solution(n, words);
         System.out.println(Arrays.toString(result));
     }
